@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
-mongoose.connect(process.env.MONGODB_URI);
+mongoose.connect("mongodb+srv://ticketing_app:prathmesh140503@cluster0.7b9gif6.mongodb.net/TicketDB");
 
 const ticketSchema = new Schema(
   {
